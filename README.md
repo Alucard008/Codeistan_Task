@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-** before you launch the application make sure to use the 
+#### before you launch the application make sure to use the 
 
-### 'npm install or npm i' 
+### `npm install or npm i` ### command
 
-command
+
 
 ### `npm start`
 
