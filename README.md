@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ### `npm install or npm i` command
 
-
+After that use the following command to launch the application
 
 ### `npm start`
 
