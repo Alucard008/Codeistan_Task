@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero_section {
+  background: url('D:/Codeistan/codeistan_task/src/images/hero.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero_section_image {
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+ 
+}
+
+.hero_logo {
+  width: 50px;
+}
+
+.history_section {
+  background: url('D:/Codeistan/codeistan_task/src/images/peak.jpg') no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+}
+
+.heading_pad{
+  font-size: 30px;
+  color: #43516c;
+  font-weight: 700;
+  margin-top: 95px;
+}
+
+.climb_section {
+  /* background: url(/images/peak.jpg) no-repeat; */
+  /* background-size: cover; */
+ 
+  width: 100vw;
+}
+
+.carosel-bg {
+  background: rgba(65, 79, 107, 0.8);
+  margin-top: 18%;
+}
+
+
+.text_section {
+  font-size: 18px;
+  margin-top: 62px;
+}
+.card{
+  
+  height: auto;
+  width: auto;
+}
+
+.dot_section {
+  margin-top: -45px;
+}
+.square {
+  top: 50%;
+  left: -20px; /* Adjust the distance from the heading */
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #b0b4be; /* Color of the square */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px; /* Adjust the font size if needed */
+}
+.square2 {
+  top: 50%;
+  left: -20px; /* Adjust the distance from the heading */
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #b0b4be; /* Color of the square */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px; /* Adjust the font size if needed */
+}
+.table_styling {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.schedule_section {
+  background: url('D:/Codeistan/codeistan_task/src/images/photo-1417021423914-070979c8eb34.jpg') no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+  position: relative;
+}
+
+.schedule_section2 {
+  background: url('D:/Codeistan/codeistan_task/src/images/photo-1443980995706-8d107e98e707.jpg') no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+  position: relative;
+}
+
+
+.schedule_overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; /* Vertically center the overlay */
+}
+
+.schedule_cover {
+  position: absolute;
+  top: 40%;
+  left: 30%; /* Adjust this value to position to the left of center */
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+/* Style the table and text as needed */
+
+.schedule_overlay img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.footer_section {
+  background: #404e6c;
+  width: 100%;
+  
+}
+.footer_container{
+  
+    display: flex;
+    justify-content: "space-between";
+    margin-left: "50px";
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  /* border: 2px solid white !important; */
+  background: #404e6c !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  /* width: 13px; */
+  background: white !important;
+  border: 2px solid white !important;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: white !important;
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+  /* Adjustments for mobile screens */
+  .tabs_upper_container_desktop {
+    display: none;
+  }
+  
+  .tabs_container_desktop {
+    display: none;
+  }
+  /* Remove background images and heights */
+  .hero_section,
+  .history_section,
+  .climb_section {
+    background: none;
+    height: auto;
+  }
+
+  /* Reduce text size */
+  .text_section {
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  .hero_section {
+    display: none;
+  }
+  .below_hero_section {
+    display: flex;
+  }
+
+  /* Adjust top margin for carousels */
+  
+.carosel_bg_image2{
+display: none;
+}
+.heading_pad{
+  font-size: 30px;
+  color: #43516c;
+  font-weight: 700;
+  margin-top: 85px;
+}
+.heading_pad_climb{
+  margin-bottom: 10px;
+margin-left: 10px;
+}
+  
+  /* Center align square */
+  .square {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Update positioning of schedule overlay */
+  .schedule_cover {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.accordion_container {
+  display: block;
+  margin-top: 20px;
+}
+.accordion_item {
+  margin-bottom: 10px;
+}
+.accordion_header {
+  background-color: #40506a;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+.accordion_header.active {
+  background-color: #afb3bc;
+}
+
+.accordion_content.active {
+  display: block;
+}
+
+/* Hide tabs on mobile screens */
+
+
+
+/* Hide the tabs container meant for desktop screens on mobile */
+
+@media (min-width: 700px) {
+
+  .accordion_main_container {
+    display: none;
+  }
+
+  .tabs_container {
+    display: flex;
+    margin-left: 20%;
+  }
+  
+  .tabs_upper_container {
+    background-color: #40506a;
+    display: flex;
+    height: 40px;
+    
+  }
+}
