@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 #### before you launch the application make sure to use the 
 
-### `npm install or npm i` ### command
+### `npm install or npm i` command
 
 
 
