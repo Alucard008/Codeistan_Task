@@ -78,7 +78,15 @@ function TabComponent() {
 
       {activeTab == "tab1" ? (
         <div>
-          <section className="schedule_section">
+          <section
+            style={{
+              background: `url(${process.env.PUBLIC_URL}/photo-1417021423914-070979c8eb34.jpg)`,
+              backgroundSize: "cover",
+              height: "800px",
+              width: "100vw",
+              position: "relative",
+            }}
+          >
             <div className="schedule_overlay">
               <div className="schedule_cover" style={{ padding: "20px" }}>
                 <div
@@ -131,7 +139,15 @@ function TabComponent() {
         </div>
       ) : (
         <div>
-          <section className="schedule_section2">
+          <section
+            style={{
+              background: `url(${process.env.PUBLIC_URL}/photo-1443980995706-8d107e98e707.jpg)`,
+              backgroundSize: "cover",
+              height: "800px",
+              width: "100vw",
+              position: "relative",
+            }}
+          >
             <div className="schedule_overlay">
               <div className="schedule_cover" style={{ padding: "20px" }}>
                 <div
@@ -143,7 +159,7 @@ function TabComponent() {
                     marginRight: "130px",
                   }}
                 >
-                  SCHEDULE
+                  SCHEDULE 2
                 </div>
                 <table
                   className="m-0 table table-borderless"
@@ -152,9 +168,7 @@ function TabComponent() {
                   <tbody>
                     <tr>
                       <td>25 Nov 2016</td>
-                      <td style={{ paddingLeft: "50px" }}>
-                        Vestibulum viverra
-                      </td>
+                      <td style={{ paddingLeft: "50px" }}>Blah blah</td>
                     </tr>
                     <tr>
                       <td>28 Nov 2016</td>

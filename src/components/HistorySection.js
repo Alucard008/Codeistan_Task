@@ -3,7 +3,16 @@ import "../style/style.css";
 
 function HistorySection() {
   return (
-    <section className="history_section d-flex flex-column justify-content-between">
+    <section
+      className="history_section"
+      style={{
+        background: `url(${process.env.PUBLIC_URL}/peak.jpg)`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
       <div
         className="container width75 d-flex flex-column"
         style={{ marginLeft: "20%" }}
