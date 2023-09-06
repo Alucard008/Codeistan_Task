@@ -36,7 +36,7 @@
 
 .carosel-bg {
   background: rgba(65, 79, 107, 0.8);
-  margin-top: 14%;
+  margin-top: 18%;
 }
 
 
@@ -164,20 +164,17 @@
   }
   /* Remove background images and heights */
   .hero_section,
-  
+  .history_section,
   .climb_section {
     background: none;
     height: auto;
   }
-  .history_section{
-    background: none;
-  }
+
   /* Reduce text size */
   .text_section {
     font-size: 14px;
     margin-top: 40px;
   }
-  
   .hero_section {
     display: none;
   }
@@ -190,7 +187,6 @@
 .carosel_bg_image2{
 display: none;
 }
-
 .heading_pad{
   font-size: 30px;
   color: #43516c;

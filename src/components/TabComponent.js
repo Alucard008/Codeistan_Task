@@ -79,9 +79,11 @@ function TabComponent() {
       {activeTab == "tab1" ? (
         <div>
           <section
+            className="schedule_section"
             style={{
-              background: `url(${process.env.PUBLIC_URL}/photo-1417021423914-070979c8eb34.jpg)`,
+              backgroundImage: `url(${process.env.PUBLIC_URL}/photo-1443980995706-8d107e98e707.jpg)`,
               backgroundSize: "cover",
+
               height: "800px",
               width: "100vw",
               position: "relative",
@@ -141,7 +143,7 @@ function TabComponent() {
         <div>
           <section
             style={{
-              background: `url(${process.env.PUBLIC_URL}/photo-1443980995706-8d107e98e707.jpg)`,
+              backgroundImage: `url(${process.env.PUBLIC_URL}/peak.jpg)`,
               backgroundSize: "cover",
               height: "800px",
               width: "100vw",
