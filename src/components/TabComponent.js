@@ -161,7 +161,7 @@ function TabComponent() {
                     marginRight: "130px",
                   }}
                 >
-                  SCHEDULE 2
+                  SCHEDULE2
                 </div>
                 <table
                   className="m-0 table table-borderless"
